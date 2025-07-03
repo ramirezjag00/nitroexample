@@ -3,6 +3,8 @@
 
 > 📖 **Official Guide**: [using Nitro in your app via a subpackage](https://nitro.margelo.com/docs/using-nitro-in-your-app)
 
+> Prefer reading code? Skip this README and check out [the code changes](https://github.com/ramirezjag00/nitroexample/pull/1)
+
 A React Native project demonstrating the in-app integration of [Nitro Modules](https://github.com/mrousavy/nitro) with both iOS and Android platforms. This project shows how to create hybrid objects that can perform basic calculations from the native side, and showcases a structure.
 
 ## 📹 Demo
