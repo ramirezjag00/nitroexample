@@ -37,6 +37,11 @@ NitroExample/
 │       ├── NitroExample+autolinking.gradle # Android autolinking helper
 │       ├── NitroExample+autolinking.cmake  # Android CMake autolinking
 │       └── ...                         # Other generated Android files
+├── 📦 src/
+│   ├── components/
+│   │   └── MathCalculatorExample.tsx   # Demo component using Nitro module
+│   └── modules/                        # JS/TS module definitions
+│       └── MathCalculator.ts           # TypeScript interface to Nitro module
 ├── 🍎 NitroExample.podspec             # iOS package definition (root)
 ├── 🤖 nitro-example/                   # Android Nitro module
 │   ├── build.gradle                    # Android library configuration
