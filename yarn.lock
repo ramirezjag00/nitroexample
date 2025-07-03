@@ -2421,6 +2421,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ts-morph/common@npm:~0.26.0":
+  version: 0.26.1
+  resolution: "@ts-morph/common@npm:0.26.1"
+  dependencies:
+    fast-glob: ^3.3.2
+    minimatch: ^9.0.4
+    path-browserify: ^1.0.1
+  checksum: 010fc76f6a3347bfcbeee43303d7390accc14fdfd9de65f6aa771e67180c8f1f65ad8e136287517287359a9d2512abcd635bd0102e7af937f6ab1f721f0aa10d
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.1.14":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -2794,9 +2805,11 @@ __metadata:
     "@types/react-test-renderer": ^19.1.0
     eslint: ^8.19.0
     jest: ^29.6.3
+    nitro-codegen: ^0.26.3
     prettier: 2.8.8
     react: 19.1.0
     react-native: 0.80.1
+    react-native-nitro-modules: ^0.26.3
     react-test-renderer: 19.1.0
     typescript: 5.0.4
   languageName: unknown
@@ -3482,6 +3495,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^5.3.0":
+  version: 5.4.1
+  resolution: "chalk@npm:5.4.1"
+  checksum: 0c656f30b782fed4d99198825c0860158901f449a6b12b818b0aabad27ec970389e7e8767d0e00762175b23620c812e70c4fd92c0210e55fc2d993638b74e86e
+  languageName: node
+  linkType: hard
+
 "char-regex@npm:^1.0.2":
   version: 1.0.2
   resolution: "char-regex@npm:1.0.2"
@@ -3594,6 +3614,13 @@ __metadata:
   version: 4.6.0
   resolution: "co@npm:4.6.0"
   checksum: 5210d9223010eb95b29df06a91116f2cf7c8e0748a9013ed853b53f362ea0e822f1e5bb054fb3cefc645239a4cf966af1f6133a3b43f40d591f3b68ed6cf0510
+  languageName: node
+  linkType: hard
+
+"code-block-writer@npm:^13.0.3":
+  version: 13.0.3
+  resolution: "code-block-writer@npm:13.0.3"
+  checksum: 8e234f0ec2db9625d5efb9f05bdae79da6559bb4d9df94a6aa79a89a7b5ae25093b70d309fc5122840c9c07995cb14b4dd3f98a30f8878e3a3372e177df79454
   languageName: node
   linkType: hard
 
@@ -6958,6 +6985,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nitro-codegen@npm:^0.26.3":
+  version: 0.26.3
+  resolution: "nitro-codegen@npm:0.26.3"
+  dependencies:
+    chalk: ^5.3.0
+    react-native-nitro-modules: ^0.26.3
+    ts-morph: ^25.0.0
+    yargs: ^17.7.2
+    zod: ^3.23.8
+  bin:
+    nitro-codegen: lib/index.js
+  checksum: 8bac66cb1117446be5732261a42f1c4e90edbf509fe95a50a25f521dfd3c8f3cc39f351b33e5ea65e323eb150b41deb269e2421d2ed6e382c63fc4a6671fb23b
+  languageName: node
+  linkType: hard
+
 "nocache@npm:^3.0.1":
   version: 3.0.4
   resolution: "nocache@npm:3.0.4"
@@ -7319,6 +7361,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-browserify@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "path-browserify@npm:1.0.1"
+  checksum: c6d7fa376423fe35b95b2d67990060c3ee304fc815ff0a2dc1c6c3cfaff2bd0d572ee67e18f19d0ea3bbe32e8add2a05021132ac40509416459fffee35200699
+  languageName: node
+  linkType: hard
+
 "path-exists@npm:^4.0.0":
   version: 4.0.0
   resolution: "path-exists@npm:4.0.0"
@@ -7587,6 +7636,16 @@ __metadata:
   version: 19.1.0
   resolution: "react-is@npm:19.1.0"
   checksum: 3eb4eac7f09bf178bdc6fa98d384f5f243b85de7c99679a88b0154ead4d818ad94386ccb00ea31ec52409ffd13299057f5ec6ca2eaec06f9f7eddc1ad4832332
+  languageName: node
+  linkType: hard
+
+"react-native-nitro-modules@npm:^0.26.3":
+  version: 0.26.3
+  resolution: "react-native-nitro-modules@npm:0.26.3"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 53f311d76375dda0fb059b2535f27527ac1c486143151579aabd114bdb17d8029f00aef953f13274239e0e43f94e30f6883d749d40905ee475c0d58cc31a1973
   languageName: node
   linkType: hard
 
@@ -8610,6 +8669,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ts-morph@npm:^25.0.0":
+  version: 25.0.1
+  resolution: "ts-morph@npm:25.0.1"
+  dependencies:
+    "@ts-morph/common": ~0.26.0
+    code-block-writer: ^13.0.3
+  checksum: 6370c653824ac5d4cc44571cb6b770d7b6e2a6c5d1910e538012f98f4e26c2e5d3f900d9cdd3c9f65301415e2cb4cd263774de97ec153ea99f4d9ce4b0a1dd37
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
@@ -9168,7 +9237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.3.1, yargs@npm:^17.6.2":
+"yargs@npm:^17.3.1, yargs@npm:^17.6.2, yargs@npm:^17.7.2":
   version: 17.7.2
   resolution: "yargs@npm:17.7.2"
   dependencies:
@@ -9187,5 +9256,12 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: f77b3d8d00310def622123df93d4ee654fc6a0096182af8bd60679ddcdfb3474c56c6c7190817c84a2785648cdee9d721c0154eb45698c62176c322fb46fc700
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.23.8":
+  version: 3.25.71
+  resolution: "zod@npm:3.25.71"
+  checksum: 76c9fff8d414138eaeeb8043ae5799b0d733a2dd2261da5fa23196884a8887fef686b06360bd1f6d1a639fc5fae26c39b41f145f14ad3a16a055942329ef0b31
   languageName: node
   linkType: hard
