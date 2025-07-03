@@ -10,6 +10,7 @@ A React Native project demonstrating the in-app integration of [Nitro Modules](h
 ## 📹 Demo
 
 <img src="./assets/nitro-example.gif" width="500" />
+
 > **⚠️ Important**: The React Native project is named "NitroExample", which should not be confused with the iOS and Android Nitro module also named "NitroExample" (see nitro.json). The project name and the Nitro module name happen to be the same in this example, but they serve different purposes:
 > - **Project name**: The React Native app container
 > - **Nitro module name**: The native library that provides the math functionality
