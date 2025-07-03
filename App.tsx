@@ -6,6 +6,7 @@
  */
 
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import { MathCalculatorExample } from './src/components/MathCalculatorExample';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -13,6 +14,7 @@ function App() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <MathCalculatorExample />
     </View>
   );
 }
