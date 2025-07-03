@@ -16,7 +16,6 @@
     "metro.kill": "lsof -ti :8081 | xargs kill -9"
   },
   "dependencies": {
-    "@react-native/new-app-screen": "0.80.1",
     "react": "19.1.0",
     "react-native": "0.80.1",
     "react-native-nitro-modules": "^0.26.3"
